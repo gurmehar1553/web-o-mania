@@ -83,19 +83,23 @@
     <!-- END HOME -->
 
     <!-- START ABOUT -->
-    <section class="section" id="about">
+    <section class="section overflow-hidden" id="about">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     <div class="mt-3">
                         <img src="images/anshika.jpeg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     <div class="mt-3">
                         <h2><span class="fw-bold">About</span> Me</h2>
                         <h4 class="mt-4">Hello! <span class="text-custom fw-bold">I'M Anshika.</span></h4>
-                        <p class="text-muted mt-4">The projects I have worked on with my team have had a great influence on general morale and productivity, and most of the projects are operating live as Beta versions at this time. After working for more than two years as a Freelancer, I've built up a large network of contacts in the IT and Social Media Marketing businesses.</p>
+                        <p class="text-muted mt-4">The initiatives I've worked on with my team have had a significant impact on overall morale and productivity, and the most of them are currently online as Beta versions. I've built up a significant network of contacts in the IT and Social Media Marketing industries after working as a Freelancer for more than two years.</p>
                         <div>
                             <ul class="mb-0 about-social list-inline mt-4">
                                 <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
@@ -546,6 +550,10 @@
     </footer>
     <!--END FOOTER-->
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="script.js"></script>
     <script src="js/custom.js"></script>
 </body>
